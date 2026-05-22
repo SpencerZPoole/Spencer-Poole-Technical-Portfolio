@@ -37,6 +37,18 @@ See the full [project index](projects/index.md) for the grouped portfolio view.
 - Systems and support: Windows 10/11, macOS, Microsoft 365, Microsoft Intune, Windows Autopilot, Entra ID / Azure AD, Active Directory, Jamf Pro, ServiceNow
 - Working style: source inspection, runtime validation, supportable documentation, small behavior-preserving changes
 
+## How I Work
+
+I believe good technical work should be functional, understandable, maintainable, and supportable.
+
+Because my work spans technical support, tooling, project organization, and independent development, I tend to think about software from both the builder’s perspective and the user’s perspective. It is not enough for something to work under the hood. It should also be approachable for the people who have to install it, use it, debug it, support it, document it, or build on top of it.
+
+I value clear structure, focused files, practical documentation, reliable setup flows, and validation that is treated as part of the project instead of an afterthought. Those choices reduce friction for users and make it easier for contributors or future maintainers to understand where things live and why decisions were made.
+
+I am especially interested in work that improves the experience around software: better tools, cleaner project architecture, clearer support workflows, stronger documentation, and systems that are easier to reason about over time.
+
+My goal is to keep building tools and systems that are not just technically correct, but intuitive, durable, and easier for real people to use and maintain.
+
 ## Engineering Style
 
 - Projects include install instructions, compatibility notes, release process, troubleshooting guidance, and validation notes.
