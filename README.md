@@ -53,10 +53,3 @@ See the full [project index](projects/index.md) for the grouped portfolio view.
 ## Public Boundary
 
 This repo does not include private career notes, employer-confidential details, raw support tickets, private user data, raw game/account data, private campaign material, credentials, or unverified compatibility claims.
-
-## Donate
-
-If these public tools or compatibility projects helped you, donations are welcome. GitHub Sponsors is best for recurring sponsorships; PayPal works well for one-time donations.
-
-[![Sponsor on GitHub](https://img.shields.io/badge/GitHub%20Sponsors-Donate-ea4aaa?style=flat&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/SpencerZPoole)
-[![Donate with PayPal](https://img.shields.io/badge/PayPal-One--time%20donation-00457C?style=flat&logo=paypal&logoColor=white)](https://paypal.me/mrpooley92)
