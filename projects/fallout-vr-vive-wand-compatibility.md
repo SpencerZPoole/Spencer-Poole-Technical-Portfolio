@@ -1,55 +1,75 @@
 # Fallout 4 VR Vive Wand Compatibility Patch
 
+[Back to project index](index.md)
+
+Public repo: [SpencerZPoole/Vive-Wand-Compatibility-Patch](https://github.com/SpencerZPoole/Vive-Wand-Compatibility-Patch)
+
 ## Summary
 
 Public-safe case study for a Fallout 4 VR compatibility project focused on restoring practical HTC Vive Wand behavior in a heavily modded VR setup.
 
+Current public package baseline: `Vive Wand Compatibility Patch 2.1.4`
+
 ## Problem
 
-Controller behavior in modded Fallout 4 VR can break across input maps, VR controller state, UI layers, profile configuration, and mod-specific compatibility patches. The goal was to turn confusing player-facing symptoms into a specific, documented, testable fix path.
+Controller behavior in modded Fallout 4 VR can break across input maps, VR controller state, UI layers, profile configuration, script extender plugins, and mod-specific compatibility patches. The goal was to turn confusing player-facing symptoms into a specific, documented, testable fix path.
 
-## Technical Highlights
+## What The Patch Does
 
-- Investigated behavior across Mod Organizer 2 profile configuration, Fallout 4 VR control maps, OpenVR loader behavior, FO4VRTools/F4SEVR concepts, Virtual Holsters settings, and Scaleform/GFx menu behavior.
-- Focused on player-facing control quality and regression avoidance rather than broad remapping.
-- Produced release notes, troubleshooting guidance, package checks, and validation notes.
-- Preserved public/private boundaries around community QA and accessibility-sensitive context.
-
-## Current Public-Safe Package Shape
-
-The current local package evidence reviewed for this portfolio is `Vive Wand Compatibility Patch 2.1.4`. Its README describes a focused MO2-friendly patch that:
+The public README describes a focused MO2-friendly patch that:
 
 - restores Fallout 4 VR's vanilla OpenVR loader through a manual local file copy by the user;
+- keeps controller auto-detection on the normal baseline unless a specific controller-identity regression is being diagnosed;
 - makes Virtual Holsters use dominant-hand Grip for holster and unholster;
 - ships Virtual Holsters defaults with display spheres and holster-zone haptics off;
 - restores right-trackpad touch-drag scrolling in scripted vertical dialogue menus;
-- documents recommended Workshop item rotation and distance speed profile values.
+- documents recommended Workshop item rotation and distance-speed profile values.
 
-The package intentionally does not ship Valve's `openvr_api.dll`; it documents where the user must copy that file from their own Fallout 4 VR installation.
+The package intentionally does not ship Valve's `openvr_api.dll`. Users copy that file from their own Fallout 4 VR installation.
+
+## Before And After
+
+| Area | Before | After |
+| --- | --- | --- |
+| OpenVR loader baseline | Modded setup could lose the vanilla OpenVR behavior needed for the target controller path. | User restores the vanilla loader locally from their own Fallout 4 VR install. |
+| Virtual Holsters | Vive Wand holster interaction could be awkward or mismatched. | Grip is used for holster/unholster, with display spheres and holster-zone haptics disabled by default. |
+| Scripted dialogue menus | Vertical dialogue menu selection could be difficult with Vive Wand trackpad behavior. | Right-trackpad touch-drag moves the highlighted dialogue option; right trigger confirm is left alone. |
+| Workshop item handling | Workshop object control needed profile-specific tuning. | README documents recommended rotation and distance-speed values. |
+
+## Package Shape
+
+The public repo includes:
+
+- `README.md`
+- `BUILDING.md`
+- `RELEASE_MANIFEST_2.1.4.md`
+- `SECURITY_REVIEW_NOTES.md`
+- `Nexus_FULLDESCRIPTION.txt`
+- `Source/`
+- `F4SE/`
+- `Root/`
+- `meta.ini`
+
+The public README lists the release payload and verification log strings without exposing private support context.
 
 ## Credit Boundary
 
-The current 2.1.4 README gives major credit to Mr. Dave for the vanilla `openvr_api.dll` restore discovery. This portfolio page frames the project as compatibility debugging, release/support packaging, QA, and documentation work while preserving that collaborator credit.
+The current README gives major credit to Mr. Dave for the vanilla `openvr_api.dll` restore discovery. This portfolio page frames Spencer's work as compatibility debugging, release/support packaging, validation, documentation, and user-facing integration while preserving that collaborator credit.
 
 ## What This Demonstrates
 
-- Compatibility debugging
-- Runtime and configuration-layer reasoning
+- VR input and controller-behavior troubleshooting
+- Runtime/configuration-layer reasoning
+- F4SEVR and FO4VRTools-adjacent compatibility work
 - Release packaging
 - Support-facing documentation
 - QA and validation discipline
-- User-centered troubleshooting
+- Public/private boundary judgment
 
 ## Validation Status
 
-Current evidence includes the local 2.1.4 package README, metadata, included file shape, and validation instructions. Public wording should stay scoped to verified behavior and should avoid broad compatibility claims.
+The public README documents expected F4SE log strings for the plugin baseline and user-facing behavior checks for scripted dialogue menus. Public wording should stay scoped to verified behavior and should avoid broad compatibility claims beyond the target setup.
 
-## Current Public Boundary
+## Public Boundary
 
-Do not disclose private accessibility details, raw support context, private tester information, or unsupported install claims.
-
-## Evidence To Add
-
-- Add a public-safe architecture/diagnostic diagram.
-- Add a concise before/after behavior table.
-- Link public release materials only after reviewing the exact public page and files.
+Do not disclose private accessibility details, raw support context, private tester information, local profile paths, private modpack data, or unsupported install claims.

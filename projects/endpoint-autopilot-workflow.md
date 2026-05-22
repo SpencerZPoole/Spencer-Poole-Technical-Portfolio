@@ -1,12 +1,14 @@
 # Endpoint Autopilot Workflow Case Study
 
+[Back to project index](index.md)
+
 ## Summary
 
-Sanitized endpoint-support case study based on professional Microsoft endpoint work. The focus is a repeatable Windows Autopilot USB batch-script workflow used to reduce ambiguity during device enrollment and setup.
+Sanitized endpoint-support case study based on professional Microsoft endpoint work. This page is included as support and systems evidence inside a developer-first portfolio: it shows operational thinking, documentation discipline, and troubleshooting structure without exposing employer-confidential details.
 
 ## Problem
 
-Endpoint setup can become inconsistent when technicians must remember manual setup steps, deployment order, tenant-specific details, application installs, and troubleshooting checks under time pressure. A repeatable workflow helps make device setup easier to follow and easier to support.
+Endpoint setup can become inconsistent when technicians must remember manual setup steps, deployment order, tenant-specific details, application installs, and troubleshooting checks under time pressure. A repeatable workflow makes device setup easier to follow, easier to support, and easier to escalate when something breaks.
 
 ## Technical Highlights
 
@@ -14,6 +16,7 @@ Endpoint setup can become inconsistent when technicians must remember manual set
 - Script-assisted setup workflow intended to make enrollment steps more repeatable.
 - Documentation-first approach so other technicians can follow the process.
 - Troubleshooting focus around application deployment, access, setup consistency, and escalation clarity.
+- Public-safe translation of professional support work into reusable engineering/process evidence.
 
 ## Generalized Workflow
 
@@ -56,12 +59,18 @@ flowchart TD
 - Process improvement
 - Technician-facing documentation
 - Practical support automation
+- Escalation-friendly troubleshooting
 - Careful public sanitization of employer-related work
+
+## Role Relevance
+
+This case study supports endpoint support, technical support engineer, junior systems administration, implementation, and developer-support applications. It also reinforces a broader engineering trait: turning ambiguous operational failure modes into repeatable checks and supportable documentation.
 
 ## Public Safety Boundary
 
 This case study intentionally omits employer-confidential details, tenant names, usernames, device names, serial numbers, screenshots from live systems, ticket IDs, internal URLs, secrets, and proprietary process details.
 
-## Evidence To Add
+## Next Evidence To Add
 
 - Map the workflow to MD-102-aligned topics such as device enrollment, application management, identity, and endpoint maintenance.
+- Add a public-safe checklist template that does not reveal employer-specific workflow details.

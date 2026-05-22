@@ -1,76 +1,62 @@
 # Spencer Poole Technical Portfolio
 
-Computer Science graduate and endpoint/support professional with Tier 1-3 technical support experience, Microsoft endpoint exposure, public technical projects, and C#/Unity/Lua development work.
+Software and tooling developer with a Computer Science background, C#/Unity experience, Lua and JavaScript project work, public release discipline, and professional Tier 1-3 support experience.
 
-This portfolio is intentionally small and curated. It focuses on practical technical work: troubleshooting, endpoint workflows, user-facing tools, modding, software projects, documentation, and validation discipline.
+This portfolio is curated for recruiters and hiring teams who want evidence of practical engineering ability: shipped tools, compatibility work, runtime debugging, QA judgment, documentation, and systems thinking. The project mix includes public open-source repositories, sanitized private case studies, and support/endpoint work that is safe to discuss publicly.
 
 ## Target Roles
 
-- Endpoint support or endpoint engineering
-- Tier 2 / Tier 3 technical support
-- Microsoft 365, Intune, Autopilot, and Entra ID support
-- Junior systems administration
+- Junior software engineer
+- Tools programmer or Unity/C# developer
+- Developer-support engineer
+- QA automation or technical QA role
+- Technical implementation engineer
 - Technical support engineer
-- Developer support or technical implementation
-- QA automation or support-engineering bridge roles
-- C# / Unity / tools development roles, selectively
+- Endpoint support, Intune/Autopilot support, or junior systems administration
 
-## Featured Work
+## Featured Engineering Work
 
-### TreenAH - World of Warcraft Auction House Add-on
+| Project | What it shows | Evidence |
+| --- | --- | --- |
+| Foundry Codex Bridge | Local-first MCP tooling, guarded live-world operations, runtime diagnostics, preview/apply safety gates, release documentation | [Case study](projects/foundry-codex-bridge.md) / [Public repo](https://github.com/SpencerZPoole/codex-foundry-bridge) |
+| D35E Foundry VTT Modules | JavaScript module development, Foundry V14 compatibility, optional-rule tooling, release packaging, screenshots, validation tooling | [Case study](projects/d35e-foundry-vtt-modules.md) |
+| Codex Unity Bridge | Unity editor automation, protocol design, policy profiles, capability manifests, validation/build surfaces, safety-first local tooling | [Sanitized case study](projects/codex-unity-bridge.md) |
+| Mech Oregon Trail | Unity/C# runtime architecture, inventory systems, world-map/travel/encounter flows, behavior-preserving refactors, test discipline | [Sanitized case study](projects/mech-oregon-trail.md) |
+| TreenAH | Lua 5.1 World of Warcraft addon, local data modeling, Auction House UI workflows, slash commands, packaging | [Project summary](projects/treenah-wow-auction-addon.md) / [Public repo](https://github.com/SpencerZPoole/TreenAH) |
+| Vive Wand Compatibility Patch | VR compatibility debugging, F4SEVR/FO4VRTools integration, release packaging, public credit boundaries, support documentation | [Project summary](projects/fallout-vr-vive-wand-compatibility.md) / [Public repo](https://github.com/SpencerZPoole/Vive-Wand-Compatibility-Patch) |
+| Foundry V14 Compatibility PRs | Upstream compatibility work, live validation, maintainer-friendly PRs, release-shape checks, local security scans | [Contribution summary](projects/foundry-v14-compatibility.md) |
+| Endpoint Autopilot Workflow | Professional endpoint-support process improvement, troubleshooting structure, public-safe documentation | [Sanitized case study](projects/endpoint-autopilot-workflow.md) |
 
-Lua 5.1 addon for World of Warcraft Classic Anniversary auction-house price tracking, scan workflows, local market history, tooltip pricing, tracked lists, slash commands, and SavedVariables-backed data.
+See the full [project index](projects/index.md) for the grouped portfolio view.
 
-What it demonstrates:
+## Technical Strengths
 
-- Platform API integration
-- Persistent local data modeling
-- In-game UI and command workflows
-- User-facing tool design
-- Documentation and validation boundaries
+- Programming and tooling: C#, JavaScript, TypeScript, Lua 5.1, Python, SQL, REST APIs, Git, GitHub, Unity
+- Game and tool ecosystems: Unity runtime architecture, Foundry VTT modules, World of Warcraft addons, Fallout 4 VR mod compatibility
+- Validation and release work: test planning, smoke testing, release notes, package-shape checks, security scans, changelogs, GitHub release workflows
+- Systems and support: Windows 10/11, macOS, Microsoft 365, Microsoft Intune, Windows Autopilot, Entra ID / Azure AD, Active Directory, Jamf Pro, ServiceNow
+- Working style: source inspection, runtime validation, careful public/private boundaries, supportable documentation, small behavior-preserving changes
 
-[Project summary](projects/treenah-wow-auction-addon.md)
+## What To Notice
 
-### Fallout 4 VR Vive Wand Compatibility Patch
+- The public projects are not just code drops. They include install instructions, compatibility notes, release process, troubleshooting guidance, validation notes, and support boundaries.
+- The private case studies are intentionally sanitized. They show engineering shape and judgment without exposing employer systems, private campaign data, local machine paths, user data, or raw game-account data.
+- Game and modding projects are presented as technical work: UI integration, runtime debugging, compatibility testing, API boundaries, release packaging, and user support.
 
-Compatibility and support-documentation project for restoring practical HTC Vive Wand behavior in a heavily modded Fallout 4 VR setup. Current public-safe framing credits collaborator discovery work where appropriate and avoids private support details.
+## Current Proof Gaps
 
-What it demonstrates:
+- TreenAH would be stronger with public screenshots or a short GIF of tooltip pricing, browse-column pricing, scan output, and slash-command output.
+- Mech Oregon Trail and Codex Unity Bridge are private case studies here; they need separate public demo artifacts before they can carry the same click-through weight as the public repos.
+- Endpoint work remains sanitized by design. It is useful support evidence, not a replacement for employer-confidential details.
+- A focused API/Postman/SQL or QA automation lab would strengthen developer-support and implementation-engineering applications.
 
-- VR input and controller-behavior troubleshooting
-- Compatibility debugging across multiple configuration layers
-- Release packaging and support documentation
-- Practical QA with clear public/private boundaries
+## Public Boundary
 
-[Project summary](projects/fallout-vr-vive-wand-compatibility.md)
+This repo does not include private career notes, employer-confidential details, raw support tickets, private user data, raw game/account data, private campaign material, credentials, or unverified compatibility claims.
 
-### Endpoint Autopilot Workflow Case Study
+## Donate
 
-Sanitized endpoint-support case study based on professional Microsoft endpoint work, focused on making Windows Autopilot device enrollment more repeatable and easier for technicians to follow.
+If these public tools or compatibility projects helped you, donations are welcome. GitHub Sponsors is best for recurring sponsorships; PayPal works well for one-time donations.
 
-What it demonstrates:
-
-- Endpoint provisioning workflow thinking
-- Microsoft Intune, Autopilot, Company Portal, and Microsoft 365 support exposure
-- Documentation and process improvement
-- Troubleshooting under real operational constraints
-
-[Case study](projects/endpoint-autopilot-workflow.md)
-
-## Technical Skills
-
-- Endpoint and systems: Windows 10/11, macOS, Microsoft 365, Microsoft Intune, Windows Autopilot, Microsoft Entra ID / Azure AD, Active Directory, Company Portal, Jamf Pro, ServiceNow
-- Support and operations: Tier 1-3 support, ticket triage, escalation troubleshooting, documentation, onboarding, application deployment, AV/event support
-- Programming and tooling: C#, Lua, JavaScript, Python, SQL, REST APIs, Postman, Git, GitHub, Unity
-- Project strengths: debugging, source inspection, runtime validation, release notes, README writing, support-facing documentation
-
-## Current Portfolio Gaps
-
-- TreenAH still needs public screenshots or GIFs before it becomes a stronger visual portfolio item.
-- The Vive Wand patch should only link public release material after the exact hosted files and permission boundaries are reviewed.
-- The endpoint workflow case study is sanitized by design; it describes the work pattern without exposing employer systems.
-- A small API/Postman/SQL or QA automation lab would strengthen developer-support and QA applications.
-
-## Boundaries
-
-This repo does not include private career notes, employer-confidential details, raw support tickets, private user data, raw game/account data, or unverified compatibility claims.
+[![Sponsor on GitHub](https://img.shields.io/badge/GitHub%20Sponsors-Donate-ea4aaa?style=flat&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/SpencerZPoole)
+[![Donate with PayPal](https://img.shields.io/badge/PayPal-One--time%20donation-00457C?style=flat&logo=paypal&logoColor=white)](https://paypal.me/mrpooley92)

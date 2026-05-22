@@ -1,50 +1,60 @@
 # TreenAH - World of Warcraft Auction House Add-on
 
+[Back to project index](index.md)
+
+Public repo: [SpencerZPoole/TreenAH](https://github.com/SpencerZPoole/TreenAH)
+
 ## Summary
 
-TreenAH is a Lua 5.1 World of Warcraft Classic Anniversary addon for auction-house price tracking, scan workflows, local market history, tooltip pricing, tracked lists, slash commands, and SavedVariables-backed data.
+TreenAH is a Lua 5.1 World of Warcraft Classic Anniversary Auction House addon for local market-history tracking. It records auction prices from scanned or browsed results, then surfaces that data through tooltips, Auction House browse columns, tracked lists, and `/pc` price checks.
+
+Current public repo version: `1.1.2`
 
 ## Problem
 
-Auction House decisions are easier when price history is visible in the game client instead of scattered across memory, chat, or external notes. TreenAH keeps local market information close to the normal Auction House workflow.
+Auction House decisions are easier when recent price history is visible in the game client. TreenAH keeps market information close to the normal Auction House workflow instead of spreading it across memory, chat, screenshots, or external notes.
 
 ## Technical Highlights
 
 - Built around WoW Auction House, UI, tooltip, chat, and SavedVariables APIs.
 - Separates market data by realm/faction from character-specific tracked-list data.
-- Supports scan workflows, recent averages, outlier filtering, tooltip pricing, browse-row pricing, and slash-command price checks.
-- Includes user-facing help, options, guardrails, and destructive-action confirmations.
+- Supports passive browsing scans, single-item scans, tracked-list scans, fast full scans, and slower page-based full scans.
+- Adds optional price data to item tooltips and Auction House browse rows.
+- Provides slash-command price checks for local chat, whispers, Battle.net friends, party, raid, guild, and say chat.
+- Includes auto-reply controls, channel toggles, cooldown behavior, help windows, options, guardrails, and destructive-action confirmations.
 
-## Architecture Snapshot
+## Repository Shape
 
-The installed addon is organized into focused modules:
+The public repo is organized by responsibility:
 
-- `Core`: lifecycle events, slash commands, chat events, and shared utility helpers.
-- `Data`: SavedVariables schema, migrations, price records, name indexing, and tracked-item lists.
-- `Systems`: auction scanning, price checks, version checks, cooldowns, and reply behavior.
-- `UI`: main Auction House panel, data browser, browse-column display, tooltip injection, options, and help surfaces.
-
-Local evidence shows a meaningful codebase rather than a toy example: 13 source/config files, a multi-module Lua structure, and a large SavedVariables file with real accumulated market data. Raw account data is intentionally not published here.
+- `Core/`: startup, event registration, slash commands, chat events, and shared utilities.
+- `Data/`: SavedVariables schema, migrations, price records, name indexing, and tracked-item lists.
+- `Systems/`: Auction House scanning, price checks, version checks, cooldowns, and reply behavior.
+- `UI/`: main panel, data browser, browse-column display, tooltip injection, options, and in-game help.
+- `scripts/package-release.ps1`: release zip packaging for the addon folder.
 
 ## What This Demonstrates
 
 - Lua addon development
 - Event-driven UI work
-- Persistent data modeling
+- Persistent local data modeling
 - Platform API integration
 - User-facing tool design
-- Documentation and QA judgment
+- Packaging and installation documentation
+- Support-minded troubleshooting notes
 
 ## Validation Status
 
-Current evidence includes source inspection and substantial local SavedVariables-based use evidence. A fresh live in-game smoke test should be recorded before making current-client compatibility claims.
+Current public evidence includes source structure, versioned addon metadata, install instructions, slash-command documentation, troubleshooting notes, packaging script, and public repo hygiene.
 
-## Current Public Boundary
+Private local evidence has shown meaningful real-use data, but raw SavedVariables and account-specific data are intentionally not published. A fresh public screenshot or GIF pass is still needed before making stronger visual/demo claims.
 
-Do not publish raw SavedVariables data, personal account data, or compatibility claims that have not been freshly validated.
+## Public Boundary
 
-## Evidence To Add
+Do not publish raw SavedVariables data, account names, character data, private game data, or current-client compatibility claims that have not been freshly validated.
 
-- Add screenshots of tooltip pricing, browse-row pricing, scan output, and slash-command output.
-- Add setup and usage instructions.
-- Record a fresh live smoke test.
+## Next Evidence To Add
+
+- Screenshots of tooltip pricing, browse-row pricing, scan output, and slash-command output.
+- A short demo GIF of the normal Auction House workflow.
+- A fresh in-game smoke-test note for the current WoW client build.
