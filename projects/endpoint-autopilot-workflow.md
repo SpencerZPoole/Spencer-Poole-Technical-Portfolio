@@ -4,7 +4,7 @@
 
 ## Summary
 
-Sanitized endpoint-support case study based on professional Microsoft endpoint work. This page is included as support and systems evidence inside a developer-first portfolio: it shows operational thinking, documentation discipline, and troubleshooting structure without exposing employer-confidential details.
+Endpoint-support case study based on professional Microsoft endpoint work. It shows operational thinking, documentation discipline, and troubleshooting structure.
 
 ## Problem
 
@@ -16,7 +16,7 @@ Endpoint setup can become inconsistent when technicians must remember manual set
 - Script-assisted setup workflow intended to make enrollment steps more repeatable.
 - Documentation-first approach so other technicians can follow the process.
 - Troubleshooting focus around application deployment, access, setup consistency, and escalation clarity.
-- Public-safe translation of professional support work into reusable engineering/process evidence.
+- Translation of professional support work into reusable engineering/process evidence.
 
 ## Generalized Workflow
 
@@ -34,7 +34,7 @@ flowchart TD
     J --> F
 ```
 
-## Sanitized Technician Checklist
+## Technician Checklist
 
 - Confirm the device is expected to be enrolled and assigned correctly.
 - Start the enrollment workflow from a known-good preparation state.
@@ -45,7 +45,7 @@ flowchart TD
 
 ## Troubleshooting Matrix
 
-| Symptom area | Public-safe check |
+| Symptom area | Check |
 | --- | --- |
 | Enrollment does not complete | Confirm assignment, network access, and management-service visibility. |
 | Required app does not install | Check deployment targeting, Company Portal status, and install retry behavior. |
@@ -60,17 +60,8 @@ flowchart TD
 - Technician-facing documentation
 - Practical support automation
 - Escalation-friendly troubleshooting
-- Careful public sanitization of employer-related work
+- Careful documentation of support workflows
 
 ## Role Relevance
 
 This case study supports endpoint support, technical support engineer, junior systems administration, implementation, and developer-support applications. It also reinforces a broader engineering trait: turning ambiguous operational failure modes into repeatable checks and supportable documentation.
-
-## Public Safety Boundary
-
-This case study intentionally omits employer-confidential details, tenant names, usernames, device names, serial numbers, screenshots from live systems, ticket IDs, internal URLs, secrets, and proprietary process details.
-
-## Next Evidence To Add
-
-- Map the workflow to MD-102-aligned topics such as device enrollment, application management, identity, and endpoint maintenance.
-- Add a public-safe checklist template that does not reveal employer-specific workflow details.

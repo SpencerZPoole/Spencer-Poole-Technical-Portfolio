@@ -26,10 +26,6 @@ This project group covers public compatibility work for existing Foundry VTT mod
 
 ## Validation Notes
 
-The PR descriptions record local validation against Foundry `14.362` with D35E `3.0.2`. They also document command-level checks such as JavaScript syntax validation, manifest/reference validation, package-shape checks, public fork release checks, and local changed-file security scans.
+The PR descriptions record local validation against Foundry `14.362` with D35E `3.0.2`. They also document command-level checks such as JavaScript syntax validation, manifest/reference validation, package-shape checks, fork release checks, and local changed-file security scans.
 
-This page intentionally frames the work as compatibility and contribution work. It does not imply ownership of the upstream modules.
-
-## Public Boundary
-
-The public PRs and fork releases are safe to link. Private local Foundry worlds, private campaign data, and local testing folders are not part of this portfolio page.
+The work is compatibility and contribution work. It does not imply ownership of the upstream modules.

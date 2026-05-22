@@ -1,6 +1,6 @@
 # Project Index
 
-This portfolio is organized by hiring signal: public engineering work first, sanitized private systems work second, and support/endpoint evidence where it helps explain Spencer's professional background.
+Selected software, tooling, compatibility, game-systems, and support-engineering work.
 
 ## Featured Engineering Projects
 
@@ -8,8 +8,8 @@ This portfolio is organized by hiring signal: public engineering work first, san
 | --- | --- |
 | [Foundry Codex Bridge](foundry-codex-bridge.md) | Local-first AI/tooling bridge with guarded live-world operations, runtime diagnostics, safety gates, and public release documentation. |
 | [D35E Foundry VTT Modules](d35e-foundry-vtt-modules.md) | Public JavaScript modules for Foundry VTT, including release-ready optional-rule tooling and screenshots. |
-| [Codex Unity Bridge](codex-unity-bridge.md) | Private Unity/Codex automation case study with protocol contracts, policy profiles, capability manifests, and validation/build surfaces. |
-| [Mech Oregon Trail](mech-oregon-trail.md) | Private Unity/C# game-systems case study covering runtime architecture, travel, encounters, inventory, and validation discipline. |
+| [Codex Unity Bridge](codex-unity-bridge.md) | Unity/Codex automation case study with protocol contracts, policy profiles, capability manifests, and validation/build surfaces. |
+| [Mech Oregon Trail](mech-oregon-trail.md) | Unity/C# game-systems case study covering runtime architecture, travel, encounters, inventory, and validation discipline. |
 
 ## Open-Source Releases And Compatibility Work
 
@@ -19,22 +19,18 @@ This portfolio is organized by hiring signal: public engineering work first, san
 | [Fallout 4 VR Vive Wand Compatibility Patch](fallout-vr-vive-wand-compatibility.md) | VR controller compatibility patch with F4SEVR/FO4VRTools integration, MO2-friendly packaging, and support docs. |
 | [Foundry V14 Compatibility Contributions](foundry-v14-compatibility.md) | Upstream PRs and public fork releases for Foundry V14 compatibility across existing modules. |
 
-## Private And Sanitized Case Studies
+## Selected Case Studies
 
-| Case study | Why it is sanitized |
+| Case study | Focus |
 | --- | --- |
-| [Codex Unity Bridge](codex-unity-bridge.md) | Source is private; public page focuses on architecture, safety model, and validation evidence. |
-| [Mech Oregon Trail](mech-oregon-trail.md) | Source is private; public page focuses on systems design and engineering practices without exposing raw project files. |
-| [Endpoint Autopilot Workflow](endpoint-autopilot-workflow.md) | Professional endpoint-support work cannot expose tenant names, tickets, screenshots, or employer-specific process details. |
+| [Codex Unity Bridge](codex-unity-bridge.md) | Local Unity editor automation, safety model, command surfaces, and validation evidence. |
+| [Mech Oregon Trail](mech-oregon-trail.md) | Unity systems design, gameplay runtime flow, inventory architecture, and validation discipline. |
+| [Endpoint Autopilot Workflow](endpoint-autopilot-workflow.md) | Endpoint workflow structure, technician-facing documentation, and escalation-friendly troubleshooting. |
 
 ## Support And Endpoint Evidence
 
 | Evidence | Signal |
 | --- | --- |
 | [Endpoint Autopilot Workflow](endpoint-autopilot-workflow.md) | Repeatable Windows endpoint provisioning workflow, technician-facing documentation, and escalation-friendly troubleshooting. |
-| [Fallout 4 VR Vive Wand Compatibility Patch](fallout-vr-vive-wand-compatibility.md) | Public support package with install guidance, user-facing troubleshooting, and compatibility boundaries. |
+| [Fallout 4 VR Vive Wand Compatibility Patch](fallout-vr-vive-wand-compatibility.md) | Support package with install guidance, user-facing troubleshooting, and compatibility boundaries. |
 | [Foundry Codex Bridge](foundry-codex-bridge.md) | Supportability through diagnostics, redaction, self-checks, version metadata, and explicit risk gates. |
-
-## Deferred Or Secondary Work
-
-Some projects are intentionally not featured yet. Shadowstep, CodexPilotAssist, the D35E Martial Maneuver Engine, AFK Ready Check, and Pocodex revision work may become useful later, but they need separate public-boundary, maturity, or source-state review before carrying lead portfolio weight.

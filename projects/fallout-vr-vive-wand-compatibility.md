@@ -6,7 +6,7 @@ Public repo: [SpencerZPoole/Vive-Wand-Compatibility-Patch](https://github.com/Sp
 
 ## Summary
 
-Public-safe case study for a Fallout 4 VR compatibility project focused on restoring practical HTC Vive Wand behavior in a heavily modded VR setup.
+Case study for a Fallout 4 VR compatibility project focused on restoring practical HTC Vive Wand behavior in a heavily modded VR setup.
 
 Current public package baseline: `Vive Wand Compatibility Patch 2.1.4`
 
@@ -25,7 +25,7 @@ The public README describes a focused MO2-friendly patch that:
 - restores right-trackpad touch-drag scrolling in scripted vertical dialogue menus;
 - documents recommended Workshop item rotation and distance-speed profile values.
 
-The package intentionally does not ship Valve's `openvr_api.dll`. Users copy that file from their own Fallout 4 VR installation.
+The package does not ship Valve's `openvr_api.dll`. Users copy that file from their own Fallout 4 VR installation.
 
 ## Before And After
 
@@ -50,9 +50,9 @@ The public repo includes:
 - `Root/`
 - `meta.ini`
 
-The public README lists the release payload and verification log strings without exposing private support context.
+The public README lists the release payload, installation flow, expected log strings, and behavior checks.
 
-## Credit Boundary
+## Credits
 
 The current README gives major credit to Mr. Dave for the vanilla `openvr_api.dll` restore discovery. This portfolio page frames Spencer's work as compatibility debugging, release/support packaging, validation, documentation, and user-facing integration while preserving that collaborator credit.
 
@@ -64,12 +64,8 @@ The current README gives major credit to Mr. Dave for the vanilla `openvr_api.dl
 - Release packaging
 - Support-facing documentation
 - QA and validation discipline
-- Public/private boundary judgment
+- Compatibility-scope judgment
 
 ## Validation Status
 
-The public README documents expected F4SE log strings for the plugin baseline and user-facing behavior checks for scripted dialogue menus. Public wording should stay scoped to verified behavior and should avoid broad compatibility claims beyond the target setup.
-
-## Public Boundary
-
-Do not disclose private accessibility details, raw support context, private tester information, local profile paths, private modpack data, or unsupported install claims.
+The public README documents expected F4SE log strings for the plugin baseline and user-facing behavior checks for scripted dialogue menus. Claims are scoped to the documented target setup and package version.

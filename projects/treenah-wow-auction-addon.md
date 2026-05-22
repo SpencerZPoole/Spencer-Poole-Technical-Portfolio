@@ -45,16 +45,4 @@ The public repo is organized by responsibility:
 
 ## Validation Status
 
-Current public evidence includes source structure, versioned addon metadata, install instructions, slash-command documentation, troubleshooting notes, packaging script, and public repo hygiene.
-
-Private local evidence has shown meaningful real-use data, but raw SavedVariables and account-specific data are intentionally not published. A fresh public screenshot or GIF pass is still needed before making stronger visual/demo claims.
-
-## Public Boundary
-
-Do not publish raw SavedVariables data, account names, character data, private game data, or current-client compatibility claims that have not been freshly validated.
-
-## Next Evidence To Add
-
-- Screenshots of tooltip pricing, browse-row pricing, scan output, and slash-command output.
-- A short demo GIF of the normal Auction House workflow.
-- A fresh in-game smoke-test note for the current WoW client build.
+Current evidence includes source structure, versioned addon metadata, install instructions, slash-command documentation, troubleshooting notes, and the release packaging script.

@@ -6,7 +6,7 @@ Public repo: [SpencerZPoole/codex-foundry-bridge](https://github.com/SpencerZPoo
 
 ## Summary
 
-Foundry Codex Bridge is a local-first MCP bridge for safely operating a trusted Foundry VTT GM session from Codex. It is not a toy demo. The public release is built around guarded live-world capability: inspect state, preview changes, apply confirmed plans, restart local Foundry when needed, and keep private campaign data behind a trusted GM session gate.
+Foundry Codex Bridge is a local-first MCP bridge for safely operating a trusted Foundry VTT GM session from Codex. It is not a toy demo. The public release is built around guarded live-world capability: inspect state, preview changes, apply confirmed plans, restart local Foundry when needed, and keep campaign data behind a trusted GM session gate.
 
 The project direction is "Guarded Power": useful local automation with explicit authentication, authorization, preview, confirmation, backup, and redaction boundaries.
 
@@ -56,6 +56,4 @@ The repo also includes install guidance, development checks, lifecycle credentia
 
 ## Validation And Boundaries
 
-The public release was prepared with validation and security sweeps before publication. The bridge is intentionally local-first. It should be tested in a disposable Foundry world before being pointed at important data.
-
-Public documentation avoids private campaign details, private world defaults, credentials, raw Foundry data exports, and private GM notes.
+The public release was prepared with validation and security sweeps before publication. The bridge is local-first by design, with disposable-world testing recommended before using it on important data.

@@ -20,7 +20,7 @@ Both projects show practical JavaScript module development, Foundry V14 compatib
 
 ## Screenshots
 
-The Piecemeal Armor / Called Shots module includes public-safe screenshots from the release repository:
+The Piecemeal Armor / Called Shots module includes screenshots from the release repository:
 
 ![Native D35E attack dialog with Called Shot dropdown](https://raw.githubusercontent.com/SpencerZPoole/d35e-piecemeal-armor-called-shots/main/docs/assets/native-called-shot-dropdown.png)
 
@@ -59,8 +59,4 @@ D35E Scent Sense:
 - Compatibility testing against current platform versions
 - Release packaging and GitHub release workflows
 - Public documentation for users and maintainers
-- Legal/content boundary discipline for tabletop-related tooling
-
-## Public Boundary
-
-These repositories contain original code, public-safe documentation, validation tooling, and lawful license files. They do not publish private campaign material, copyrighted sourcebook prose, stat blocks, adventure text, setting lore, private compendium data, or private table notes.
+- License-aware documentation for tabletop-related tooling

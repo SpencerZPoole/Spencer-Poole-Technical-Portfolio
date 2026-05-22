@@ -4,9 +4,9 @@
 
 ## Summary
 
-Codex Unity Bridge is a private local tooling project for connecting Codex-style automation to a live Unity editor through a guarded bridge. The public portfolio version is a sanitized case study: it describes the architecture, safety model, validation surfaces, and engineering decisions without publishing private source.
+Codex Unity Bridge is a local tooling project for connecting Codex-style automation to a live Unity editor through a guarded bridge. The case study focuses on architecture, safety model, validation surfaces, and engineering decisions.
 
-Current private evidence reviewed for this case study describes bridge version `0.5.0`, validated through the Phase 6 slice.
+Current case-study baseline: bridge version `0.5.0`, validated through the Phase 6 slice.
 
 ## Problem
 
@@ -15,13 +15,13 @@ Unity editor automation is powerful but easy to make unsafe. A useful local brid
 - read-only inspection;
 - scratch-only validation;
 - project writes that require preview and confirmation;
-- potentially dangerous operations that should remain gated or deferred.
+- high-risk operations that require stronger gates.
 
 The goal was to make Unity automation more useful while refusing to treat the editor as an unguarded mutation surface.
 
 ## Architecture Shape
 
-The private workspace is organized around:
+The project is organized around:
 
 - a Unity package that owns editor-side inspection, command handling, and loopback HTTP endpoints;
 - a Python bridge that can expose CLI and MCP-style access;
@@ -53,10 +53,6 @@ The private workspace is organized around:
 
 ## Validation Status
 
-Private docs record validation from read-only live editor inspection through safe mutation previews, play-mode transitions, EditMode tests, read-only inspection APIs, PlayMode/build surfaces, capability/policy checks, packaging validation, and health diagnostics.
+Validation records cover read-only live editor inspection, safe mutation previews, play-mode transitions, EditMode tests, read-only inspection APIs, PlayMode/build surfaces, capability/policy checks, packaging validation, and health diagnostics.
 
-The current public claim is intentionally scoped: this case study shows a validated sandbox/local bridge architecture. It does not claim the bridge is a production-ready public Unity asset, a general-purpose cloud service, or fully installed across every Unity project.
-
-## Public Boundary
-
-The source repo is private. This page does not expose local machine paths, private project data, unpublished config, credentials, or raw validation artifacts.
+The current status is a validated sandbox/local bridge architecture, not a packaged public Unity asset or general-purpose cloud service.
