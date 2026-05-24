@@ -15,8 +15,8 @@ Both projects show practical JavaScript module development, Foundry V14 compatib
 
 | Module | Current status | What it does |
 | --- | --- | --- |
-| [D35E Piecemeal Armor And Called Shots](https://github.com/SpencerZPoole/d35e-piecemeal-armor-called-shots) | Public `v1.0.0` release | Adds optional piecemeal armor workflows, called-shot selection in D35E attack dialogs, configurable profiles, GM-confirmed outcomes, and release packaging. |
-| [D35E Scent Sense](https://github.com/SpencerZPoole/d35e-scent-sense) | Public `v1.0.0` release | Adds conservative SRD Scent support: range detection, owner/GM range rings, detection state, odor context, scent trails, diagnostics, and stable public API docs. |
+| [D35E Piecemeal Armor And Called Shots](https://github.com/SpencerZPoole/d35e-piecemeal-armor-called-shots) | Public GitHub and Foundry package releases | Adds optional piecemeal armor workflows, called-shot selection in D35E attack dialogs, configurable profiles, GM-confirmed outcomes, and release packaging. |
+| [D35E Scent Sense](https://github.com/SpencerZPoole/d35e-scent-sense) | Public GitHub and Foundry package releases | Adds conservative SRD Scent support: range detection, owner/GM range rings, detection state, odor context, scent trails, diagnostics, and stable public API docs. |
 
 ## Screenshots
 
@@ -41,13 +41,15 @@ The Piecemeal Armor / Called Shots module includes screenshots from the release 
 
 Piecemeal Armor / Called Shots:
 
-- Public release: [v1.0.0](https://github.com/SpencerZPoole/d35e-piecemeal-armor-called-shots/releases/tag/v1.0.0)
+- Public repo: [SpencerZPoole/d35e-piecemeal-armor-called-shots](https://github.com/SpencerZPoole/d35e-piecemeal-armor-called-shots)
+- Foundry package page: [D35E Piecemeal Armor And Called Shots](https://foundryvtt.com/packages/d35e-piecemeal-armor-called-shots)
 - Verified compatibility noted in the public README: Foundry VTT `14.362`, D35E `3.0.2`
 - Includes screenshots, user guide, release workflow, module manifest, package build script, and validation tools.
 
 D35E Scent Sense:
 
-- Public release: [v1.0.0](https://github.com/SpencerZPoole/d35e-scent-sense/releases/tag/v1.0.0)
+- Public repo: [SpencerZPoole/d35e-scent-sense](https://github.com/SpencerZPoole/d35e-scent-sense)
+- Foundry package page: [D35E Scent Sense](https://foundryvtt.com/packages/d35e-scent-sense)
 - Verified compatibility noted in the public README: Foundry VTT `14.361`, D35E `3.0.2`
 - Includes API reference, architecture docs, RAW coverage matrix, release audit, release process, and validation tooling.
 

@@ -1,8 +1,8 @@
 # Spencer Poole Technical Portfolio
 
-Software and tooling developer with a Computer Science background, C#/Unity experience, Lua and JavaScript project work, public release discipline, and professional Tier 1-3 support experience.
+Systems-minded technical problem solver with a Computer Science background, professional Tier 1-3 support experience, and public software projects across game/modding tools, Foundry VTT modules, JavaScript/Lua/C++ work, release packaging, QA, and technical documentation.
 
-Selected work across shipped tools, compatibility projects, runtime debugging, QA, technical documentation, and systems support.
+This portfolio focuses on shipped tools and supportable technical work: diagnosing real runtime behavior, making small safe fixes, documenting setup paths, validating releases, and turning messy user-facing problems into maintainable software artifacts.
 
 ## Target Roles
 
@@ -18,14 +18,21 @@ Selected work across shipped tools, compatibility projects, runtime debugging, Q
 
 | Project | What it shows | Evidence |
 | --- | --- | --- |
-| Foundry Codex Bridge | Local-first MCP tooling, guarded live-world operations, runtime diagnostics, preview/apply safety gates, release documentation | [Case study](projects/foundry-codex-bridge.md) / [Public repo](https://github.com/SpencerZPoole/codex-foundry-bridge) |
+| Vive Wand Compatibility Patch | VR compatibility debugging, F4SEVR/FO4VRTools-adjacent support packaging, collaborator credit, user-facing install guidance | [Project summary](projects/fallout-vr-vive-wand-compatibility.md) / [Public repo](https://github.com/SpencerZPoole/Vive-Wand-Compatibility-Patch) / [Nexus page](https://www.nexusmods.com/fallout4/mods/104251) |
+| TreenAH | Lua 5.1 World of Warcraft addon, local market-history data modeling, Auction House UI workflows, slash commands, packaging | [Project summary](projects/treenah-wow-auction-addon.md) / [Public repo](https://github.com/SpencerZPoole/TreenAH) / [CurseForge page](https://www.curseforge.com/wow/addons/treenah) |
 | D35E Foundry VTT Modules | JavaScript module development, Foundry V14 compatibility, optional-rule tooling, release packaging, screenshots, validation tooling | [Case study](projects/d35e-foundry-vtt-modules.md) |
-| Codex Unity Bridge | Unity editor automation, protocol design, policy profiles, capability manifests, validation/build surfaces, safety-first local tooling | [Case study](projects/codex-unity-bridge.md) |
+| Foundry V14 Compatibility PRs | Accepted upstream maintenance PRs, live validation, install-flow fixes, package-shape checks, maintainer-friendly documentation | [Contribution summary](projects/foundry-v14-compatibility.md) |
+| Foundry Codex Bridge | Local-first MCP tooling, guarded live-world operations, runtime diagnostics, preview/apply safety gates, release documentation | [Case study](projects/foundry-codex-bridge.md) / [Public repo](https://github.com/SpencerZPoole/codex-foundry-bridge) |
 | Mech Oregon Trail | Unity/C# runtime architecture, inventory systems, world-map/travel/encounter flows, behavior-preserving refactors, test discipline | [Case study](projects/mech-oregon-trail.md) |
-| TreenAH | Lua 5.1 World of Warcraft addon, local data modeling, Auction House UI workflows, slash commands, packaging | [Project summary](projects/treenah-wow-auction-addon.md) / [Public repo](https://github.com/SpencerZPoole/TreenAH) |
-| Vive Wand Compatibility Patch | VR compatibility debugging, F4SEVR/FO4VRTools integration, release packaging, collaborator credit, support documentation | [Project summary](projects/fallout-vr-vive-wand-compatibility.md) / [Public repo](https://github.com/SpencerZPoole/Vive-Wand-Compatibility-Patch) |
-| Foundry V14 Compatibility PRs | Upstream compatibility work, live validation, maintainer-friendly PRs, release-shape checks, local security scans | [Contribution summary](projects/foundry-v14-compatibility.md) |
 | Endpoint Autopilot Workflow | Professional endpoint-support process improvement, troubleshooting structure, technician-facing documentation | [Case study](projects/endpoint-autopilot-workflow.md) |
+| Codex Unity Bridge | Unity editor automation, protocol design, policy profiles, capability manifests, validation/build surfaces, safety-first local tooling | [Case study](projects/codex-unity-bridge.md) |
+
+## Public Evidence Snapshot
+
+- Shipped public tools on GitHub, CurseForge, Nexus Mods, and Foundry VTT.
+- Published Foundry VTT package-directory modules with screenshots, manifests, docs, and release assets.
+- Contributed Foundry V14 compatibility and install-flow fixes accepted by upstream maintainers.
+- Uses AI-assisted development as workflow acceleration while retaining ownership of investigation, validation, release decisions, and documentation.
 
 See the full [project index](projects/index.md) for the grouped portfolio view.
 
@@ -41,7 +48,7 @@ See the full [project index](projects/index.md) for the grouped portfolio view.
 
 I believe good technical work should be functional, understandable, maintainable, and supportable.
 
-Because my work spans technical support, tooling, project organization, and independent development, I tend to think about software from both the builder’s perspective and the user’s perspective. It is not enough for something to work under the hood. It should also be approachable for the people who have to install it, use it, debug it, support it, document it, or build on top of it.
+Because my work spans technical support, tooling, project organization, and independent development, I tend to think about software from both the builder's perspective and the user's perspective. It is not enough for something to work under the hood. It should also be approachable for the people who have to install it, use it, debug it, support it, document it, or build on top of it.
 
 I value clear structure, focused files, practical documentation, reliable setup flows, and validation that is treated as part of the project instead of an afterthought. Those choices reduce friction for users and make it easier for contributors or future maintainers to understand where things live and why decisions were made.
 
